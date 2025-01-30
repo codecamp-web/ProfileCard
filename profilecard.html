@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="profileCard.css">
+</head>
+<body>
+   <div class="profile-card">
+      <div class="profile">
+         <img src="picture.jpeg" data-testid="profilePicture"
+          class="profile-img" alt="Profile Picture">
+      </div>
+      <div class="information">
+         <span data-testid="fullName" class="name">Edward Ogheneochuko</span>
+         <span data-testid="jobTitle" class="work">Front end Intern</span>
+         <p data-testid="shortBio" class="bio"> I am a graduate of
+            Computer Science from Landmark University, I am from Delta State
+            I’m passionate about technology, but it was the stunningly
+             well-designed user experiences that first drew me into front-end development. 
+             How websites and applications were created from basic code into dynamic
+         </p>
+      </div>
+      <div class="contact">
+         <p class="location" data-testid="currentLocation">Lagos,Nigeria</p>
+         <p data-testid="emailAddress"> headiesed@gmail.com</p>
+         </div>
+      <div class="media-information">
+         <a href="https://github.com/codecamp-web" class="link" data-testid="socialLinks">Github</a>
+         <a href="https://www.linkedin.com/in/edward-ogheneochuko/" class="link" data-testid="socialLinks">Linkedln</a>
+      </div>
+      <div data-testid="currentTimeUTC" id="clock">
+      </div>
+      <script src="/profilecard.js"></script>
+
+   </div>
+</body>
+</html>
